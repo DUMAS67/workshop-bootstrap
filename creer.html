@@ -84,10 +84,76 @@
       </div>
       <div class="form-group row">
         <div class="col-sm-8 text-right">
+          <!-- Button trigger modal -->
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#creerModal ">Créer</button>
+          <!-- Modal -->
+          <div class="modal fade" id="creerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">Création d'un Collaborateur</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col text-left"> Vous êtes sur le point de créer un nouveau collaborateur : </div>
+                    </div>
+                    <div class="row"></div>
+                    <p></p>
+                    <div class="row">
+                      <div class="col-4 text-left">Nom</div>
+                      <div class="col-3 text-left">XXXXXXXXXXXX</div>
+                      <div class="col-5"></div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4 text-left">Prénom</div>
+                      <div class="col-3 text-left">XXXXXXXXXXXX</div>
+                      <div class="col-5"></div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4 text-left">Date de Naissance </div>
+                      <div class="col-3 text-left">XXXXXXXXXXXX</div>
+                      <div class="col-5"></div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4 text-left"> Adresse </div>
+                      <div class="col-3 text-left">XXXXXXXXXXXX</div>
+                      <div class="col-5"></div>
+                    </div>
+                    <div class="row">
+                      <div class="col-4 text-left"> Numéro de Sécurité Sociale </div>
+                      <div class="col-3 text-left">XXXXXXXXXXXX</div>
+                      <div class="col-5"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+                  <button type="button" class="btn btn-primary">Confirmer</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
+      </div>
       </div>
     </form>
   </main>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
